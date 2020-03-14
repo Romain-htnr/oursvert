@@ -1,8 +1,9 @@
 .navbar {
   display: flex;
-  background-color: grey;
+  background-color: #F2F2F2;
   justify-content: space-between;
-  position
+  position: fixed;
+  width: 100%;
 }
 
 .logo {
@@ -10,6 +11,7 @@
   font-family: 'Bree Serif', serif;
   color: white;
   font-size: 30px;
+  padding-left: 18px;
 }
 
 .nav-links {
