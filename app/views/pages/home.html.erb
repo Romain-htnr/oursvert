@@ -3,28 +3,27 @@
   <div class="lft-homeinfo">
     <h1>L’OURS VERT, VOTRE DESTINATION NATURE DANS UN CADRE PRESERVE</h1>
     <p>Notre meublé de tourisme l’Ours Vert est situé à Baerenthal (la "Vallée de l’Ours") (https://www.baerenthal.eu/a-propos/), charmant village niché en plein cœur du parc naturel régional des Vosges du Nord (classé réserve mondiale de biosphère par l'UNESCO).
-Sandrine et Jean-Marie vous y accueillent dans un cadre authentique qui vous permet d’accéder directement à des kilomètres de chemins de randonnées balisés dans la forêt sans utiliser votre voiture.
-Il se trouve à égale distance de Bitche en Moselle (15 minutes) et de Niederbronn-les-Bains en Alsace (15 minutes).
-Strasbourg est à 1heure.</p>
+      Sandrine et Jean-Marie vous y accueillent dans un cadre authentique qui vous permet d’accéder directement à des kilomètres de chemins de randonnées balisés dans la forêt sans utiliser votre voiture.
+      Il se trouve à égale distance de Bitche en Moselle (15 minutes) et de Niederbronn-les-Bains en Alsace (15 minutes).
+    Strasbourg est à 1heure.</p>
   </div>
   <img src="https://cdn.pixabay.com/photo/2016/11/08/05/54/agriculture-1807581_960_720.jpg" alt="garden" class= "right-homeimg">
 </div>
 <img src="https://cdn.pixabay.com/photo/2012/08/27/14/19/evening-55067_960_720.png" alt="garden2" class="banner-img">
 <div class="citation">“Une citation ici ou un contenu de l’Ours Vert”</div>
 <div class="home-cards">
+  <%= link_to nature_path do %>
+  <%= image_tag "https://cdn.pixabay.com/photo/2014/09/23/11/29/antelope-canyon-457495_960_720.jpg", class: "category" %>
+  <div class="centered">Nature</div>
+  <% end %>
 
-  <div class="category">
-    <img src="https://cdn.pixabay.com/photo/2014/09/23/11/29/antelope-canyon-457495_960_720.jpg" alt="Petit colorado">
-    <div class="centered">Nature</div>
-  </div>
+  <%= link_to cultureetpatrimoine_path do %>
+  <%= image_tag "https://cdn.pixabay.com/photo/2020/01/31/07/27/shinjuku-4807328_960_720.jpg", class: "category" %>
+  <div class="centered">Culture et Patrimoine</div>
+  <% end %>
 
-  <div class="category">
-    <img src="https://cdn.pixabay.com/photo/2017/08/07/10/05/neuschwanstein-2602208_960_720.jpg" alt="Petit colorado">
-    <div class="centered">Culture et Patrimoine</div>
-  </div>
-
-  <div class="category">
-    <img src="https://cdn.pixabay.com/photo/2014/06/16/23/10/spice-370114_960_720.jpg" alt="Petit colorado">
-    <div class="centered">Restauration</div>
-  </div>
+  <%= link_to restauration_path do %>
+  <%= image_tag "https://cdn.pixabay.com/photo/2014/06/16/23/10/spice-370114_960_720.jpg", class: "category" %>
+  <div class="centered">Restauration</div>
+  <% end %>
 </div>
