@@ -1,6 +1,6 @@
 .navbar {
   display: flex;
-  background-color: #F2F2F2;
+  background-color: white;
   justify-content: space-between;
   position: fixed;
   width: 100%;
@@ -8,10 +8,15 @@
 
 .logo {
   text-decoration: none;
-  font-family: 'Bree Serif', serif;
-  color: white;
+  font-family: 'Bebas Neue';
+  color: green;
   font-size: 30px;
   padding-left: 18px;
+}
+
+.logo:hover {
+  text-decoration: none;
+  color: green;
 }
 
 .nav-links {
@@ -23,6 +28,11 @@
 .link {
   text-decoration: none;
   font-size: 18px;
-  color: white;
+  color: green;
   padding-left: 34px;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: green;
 }

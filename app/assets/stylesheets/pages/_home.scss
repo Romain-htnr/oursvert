@@ -35,29 +35,35 @@
 }
 
 .home-cards {
-  display: flex;
-  width: 90%;
-  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 80vh;
+  grid-column-gap: 10px;
   padding-top: 40px;
-
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 
 .centered {
-  position: absolute;
-  top: 50%;
+  position: relative;
+  bottom: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 34px;
 }
 
+
 .category {
+  object-fit: cover;
+  height: 80vh;
+  width: 100%;
   position: relative;
   text-align: center;
   color: white;
-}
-
-.category img{
-  width: 360px;
-  height: 80vh;
-  object-fit: cover;
-  margin-right: 20px;
+  font-weight: bold;
+  font-size: 36px;
 }
