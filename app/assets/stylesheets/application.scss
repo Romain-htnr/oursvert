@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+
+@import "components/navbar";
+@import "pages/home";
+@import "pages/lemeuble";
+@import "pages/nature";
+@import "pages/restauration";
+@import "pages/cultureetpatrimoine";
