@@ -4,32 +4,35 @@
   justify-content: space-between;
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
 
 .logo {
   text-decoration: none;
   font-family: 'Bebas Neue';
-  color: green;
+  color: black;
   font-size: 30px;
-  padding-left: 18px;
+  color: #297045;
 }
 
 .logo:hover {
   text-decoration: none;
-  color: green;
+  color: #C5E99B;
+
 }
 
 .nav-links {
   display: flex;
-  padding-right: 16px;
   padding-top: 8px;
 }
 
 .link {
   text-decoration: none;
-  font-size: 18px;
-  color: green;
-  padding-left: 34px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+  padding-right: 34px;
 }
 
 .link:hover {
