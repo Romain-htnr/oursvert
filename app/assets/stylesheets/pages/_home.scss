@@ -4,7 +4,6 @@
   object-fit: cover;
 }
 
-
 .homeinfo {
   width: 55%;
   margin: auto;
@@ -15,85 +14,59 @@
 
  .apropos {
   font-size: 34px;
-
  }
-
- .lign {
-  margin-bottom: 40px;
-}
 
  .homeinfo p {
   font-size: 14px;
   font-family: 'Montserrat', sans-serif;
  }
 
-.activite {
+ .activites {
+  margin-left: 60px;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 1rem;
+ }
+
+.activites > li {
+  // border: 1px solid #E2E2E2;
+  list-style-type: none;
   display: flex;
-  width: 90%;
-  margin-bottom: 120px;
+  // justify-content: center;
+  margin-bottom: 40px;
+}
+
+ .card {
+ }
+
+.activite {
 }
 
 .lft-images {
-  margin-left: 120px;
   display: flex;
 }
 
 .over-image {
-  height: 350px;
-  width: 320px;
-  position: relative;
-  bottom: 120px;
   object-fit: cover;
-  opacity: 50%;
+  height: 350px;
+  width: 280px;
 }
 
 .back-image {
-  height: 350px;
-  width: 320px;
-  position: relative;
-  bottom: 40px;
-  right: 220px;
-  z-index: 1;
   object-fit: cover;
+  position: relative;
+  opacity: 50%;
+  z-index: -1;
+  right: 140px;
+  bottom: 40px;
+  height: 350px;
+  width: 280px;
+}
+
+.right-infos p{
 }
 
 .right-infos {
   width: 70%;
-}
-
-.right-infos h1{
-  font-size: 48px;
-}
-
-.invert {
-  // margin-left: 120px;
-  // width: 100%;
-}
-
-.cgd {
-  position: relative;
-  left: 40px;
-}
-
-.change {
-  margin-bottom: 280px;
-}
-
-.chg-over-image {
-  height: 350px;
-  width: 320px;
-  position: relative;
-  bottom: 40px;
-  object-fit: cover;
-  z-index: 1;
-}
-
-.chg-back-image {
-  height: 350px;
-  width: 320px;
-  position: relative;
-  top: 40px;
-  right: 140px;
-  object-fit: cover;
-  opacity: 50%;
 }
