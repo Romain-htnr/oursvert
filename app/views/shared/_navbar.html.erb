@@ -1,10 +1,17 @@
 <div class="navbar">
-  <%= link_to "L'Ours Vert", root_path, class: "logo" %>
+  <!-- <div class="logo"> -->
+  <%= link_to root_path do %>
+  <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1584376698/Ours%20vert/logo_p3r3sa.png" alt="logo" class="logo">
+  <% end %>
+  <!-- </div> -->
   <div class="nav-links">
     <%= link_to "NATURE", nature_path, class: "link" %>
     <%= link_to "LE MEUBLE", lemeuble_path, class: "link" %>
     <%= link_to "CULTURE & PATRIMOINE", cultureetpatrimoine_path, class: "link" %>
     <%= link_to "RESTAURATION", restauration_path, class: "link" %>
   </div>
-  <div class="flags">french</div>
+  <div class="flags">
+    <img src="https://r-cf.bstatic.com/static/img/flags/24/fr/c3dafe717a0b4b97e6ddd0d791e8a018d8f96310.png" alt="frenchflag" class="fr-drapeau">
+    <img src="https://r-cf.bstatic.com/static/img/flags/24/de/8ac6ba8a71dc9fd2122f37462d4f26b1ee9428de.png" alt="germanflag" class="all-drapeau">
+  </div>
 </div>

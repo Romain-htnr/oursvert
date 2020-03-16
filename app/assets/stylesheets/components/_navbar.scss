@@ -1,6 +1,7 @@
 .navbar {
   display: flex;
-  background-color: #f7f4ef;
+  background-color: $beige;
+  color: $green;
   justify-content: space-between;
   position: fixed;
   width: 100%;
@@ -9,16 +10,17 @@
 }
 
 .logo {
+  margin-left: 20px;
+  width: 50px;
   text-decoration: none;
   font-family: 'Bebas Neue';
   color: #134418;
   font-size: 30px;
-  color: #297045;
 }
 
 .logo:hover {
   text-decoration: none;
-  color: #81B55F;
+  color: $light-green;
 }
 
 .nav-links {
@@ -26,10 +28,19 @@
   padding-top: 8px;
 }
 
+.fr-drapeau {
+  width: 18px;
+  margin-right: 8px;
+}
+
+.all-drapeau {
+  width: 18px;
+}
+
 .link {
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: bold;
   color: #134418;
   padding-right: 34px;
