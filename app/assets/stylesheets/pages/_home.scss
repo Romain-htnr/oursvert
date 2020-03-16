@@ -29,18 +29,9 @@
 
 .activite {
   display: flex;
-  //grid-template-columns: 1fr 1fr;
-  // grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-  // grid-template-rows: 300px 300px;
-
+  width: 90%;
+  margin-bottom: 120px;
 }
-
-// .activites {
-//   display: grid;
-//   //grid-template-columns: 1fr 1fr;
-//   grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
-//   grid-template-rows: 300px 300px;
-// }
 
 .lft-images {
   margin-left: 120px;
@@ -68,16 +59,24 @@
 
 .right-infos {
   width: 70%;
-  // margin-top: 8px;
 }
 
 .right-infos h1{
   font-size: 48px;
-  // margin-bottom: 28px;
 }
 
 .invert {
-  margin-left: 120px;
+  // margin-left: 120px;
+  // width: 100%;
+}
+
+.cgd {
+  position: relative;
+  left: 40px;
+}
+
+.change {
+  margin-bottom: 280px;
 }
 
 .chg-over-image {
@@ -87,8 +86,6 @@
   bottom: 40px;
   object-fit: cover;
   z-index: 1;
-  // top: 10px;
-
 }
 
 .chg-back-image {
@@ -96,7 +93,7 @@
   width: 320px;
   position: relative;
   top: 40px;
-  right: 220px;
+  right: 140px;
   object-fit: cover;
   opacity: 50%;
 }
