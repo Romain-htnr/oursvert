@@ -1,24 +1,24 @@
 .navbar {
   display: flex;
-  background-color: white;
+  background-color: #f7f4ef;
   justify-content: space-between;
   position: fixed;
   width: 100%;
+  height: 12vh;
   z-index: 2;
 }
 
 .logo {
   text-decoration: none;
   font-family: 'Bebas Neue';
-  color: black;
+  color: #134418;
   font-size: 30px;
   color: #297045;
 }
 
 .logo:hover {
   text-decoration: none;
-  color: #C5E99B;
-
+  color: #81B55F;
 }
 
 .nav-links {
@@ -31,11 +31,11 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   font-weight: bold;
-  color: black;
+  color: #134418;
   padding-right: 34px;
 }
 
 .link:hover {
   text-decoration: none;
-  color: green;
+  color: #81B55F;
 }

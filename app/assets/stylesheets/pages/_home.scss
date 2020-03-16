@@ -1,7 +1,20 @@
 .homepic {
-  width: 100%;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.homepic img {
   height: 100vh;
+  width: 100%;
   object-fit: cover;
+}
+
+.homepic h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .homeinfo {
@@ -34,7 +47,7 @@
   list-style-type: none;
   display: flex;
   // justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 30%;
 }
 
  .card {
