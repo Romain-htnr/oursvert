@@ -44,10 +44,8 @@
  }
 
 .activites > li {
-  // border: 1px solid #E2E2E2;
   list-style-type: none;
   display: flex;
-  // justify-content: center;
   margin-bottom: 30%;
 }
 
@@ -63,8 +61,8 @@
 
 .over-image {
   object-fit: cover;
-  height: 350px;
-  width: 280px;
+  height: 52vh;
+  width: 50%;
 }
 
 .back-image {
@@ -74,13 +72,24 @@
   z-index: -1;
   right: 140px;
   bottom: 40px;
-  height: 350px;
-  width: 280px;
-}
-
-.right-infos p{
+  height: 52vh;
+  width: 50%;
 }
 
 .right-infos {
   width: 70%;
+}
+
+.map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-bottom: 40px;
+  border-radius: 8px;
+}
+
+.where {
+  text-align: center;
+  margin-bottom: 80px;
 }
