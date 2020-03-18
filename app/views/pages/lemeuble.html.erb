@@ -1,4 +1,112 @@
-<div class="homepic">
-<img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1584468777/Ours%20vert/Test_2_gtaxzw.jpg" alt="Ourvert">
-<h1>Le meublé</h1>
+<div class="meuble-infos">
+  <h1 class="title">Le meublé</h1>
+  <p>L’Ours Vert est situé à Baerenthal (village labellisé station verte, en plein cœur du parc naturel régional des Vosges du Nord).</p>
+  <p>Cette maison de vacances de 66 m2 de plain-pied comprend une entrée indépendante et un parking privatif. Elle a été rénovée et redécorée avec goût en 2019.</p>
 </div>
+
+<div class="carousel">
+  <div class="slideshow-container">
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1584525684/Ours%20vert/Chambre_double_lthbme.jpg" style="width:100%; object-fit: cover">
+      <div class="text">Caption Text</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1584525684/Ours%20vert/2eme_chambre_ufvfem.jpg" style="width:100%; object-fit: cover">
+      <div class="text">Caption Two</div>
+    </div>
+
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1584525696/Ours%20vert/Terasse_vue_inte%CC%81rieure_v855tf.jpg" style="width:100%; object-fit: cover">
+      <div class="text">Caption Three</div>
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+
+  <br>
+
+  <!-- The dots/circles -->
+  <!-- <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div> -->
+</div>
+
+<div class="meuble-details">
+  <div class="icons">
+    <div class="both">
+    <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1584523036/Ours%20vert/home-solid_xwglom.svg" alt="home">
+    <p>130m²</p>
+    </div>
+    <div class="both">
+    <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1584523036/Ours%20vert/user-friends-solid_if95gu.svg" alt="persons">
+    <p>Jusqu’a 5 personnes</p>
+    </div>
+    <div class="both">
+    <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1584523036/Ours%20vert/pagelines-brands_vdebfr.svg" alt="feuille">
+    <p>Jardin</p>
+    </div>
+    <div class="both">
+    <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1584523036/Ours%20vert/wifi-solid_lexnjs.svg" alt="wifi">
+    <p>Wifi</p>
+    </div>
+  </div>
+</div>
+<div class="text-meuble">
+  <p>L’Ours Vert est situé à Baerenthal (village labellisé station verte, en plein cœur du parc naturel régional des Vosges du Nord). Cette maison de vacances de 66 m2 de plain-pied comprend une entrée indépendante et un parking privatif. Elle a été rénovée et redécorée avec goût en 2019.</p>
+  <p>Elle est composée de :</p>
+  <ul>
+    <li>2 chambres (1 avec 1 lit King size (180 X 200 cm) et 1 avec 2 lits (90 X 200 cm) pouvant être mis côte à côte ou séparés</li>
+    <li>1 salon/salle-à-manger avec télé et Wi-Fi</li>
+    <li>1 cuisine aménagée avec frigo/congélateur, plaques vitrocéramiques, four et micro-ondes</li>
+    <li>1 salle d’eau avec une grande douche à l’italienne</li>
+    <li>1 Jardin privatif orienté plein Sud</li>
+    <li>1 terrasse en bois (plein Sud) avec salon de jardin, transats et store ban</li>
+  </ul>
+  <p>Le linge de maison (draps, serviettes, torchons de vaisselle) et la vaisselle sont fournis sans supplément. 
+  <br>
+  Sandrine, votre hôte, vous accueille en français, allemand, anglais et italien</p>
+</div>
+
+<h1 class="where">Accèss</h1>
+<img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1584466798/Ours%20vert/map_nunxzm.png" alt="carte" class="map">
+
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  // Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  // Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+  // https://www.w3schools.com/howto/howto_js_slideshow.asp
+</script>
