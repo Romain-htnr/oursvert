@@ -51,12 +51,6 @@
   margin-bottom: 30%;
 }
 
- .card {
- }
-
-.activite {
-}
-
 .lft-images {
   display: flex;
 }
@@ -81,6 +75,7 @@
 .right-infos {
   width: 70%;
 }
+
 
 // #map {
 //   display: block;
@@ -113,3 +108,15 @@
 //   right: 0;
 //   color: grey;
 // }
+
+@media only screen and (max-width: 600px) {
+  .right-infos {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .lft-images {
+    margin-left: 15%;
+  }
+}
