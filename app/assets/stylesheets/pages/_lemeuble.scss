@@ -137,7 +137,7 @@
 .icons img {
   width: 28px;
   height: 28px;
-  color: $green;
+  // fill: white;
 }
 
 .icons-details {
@@ -167,6 +167,7 @@
 
 ul {
   list-style-type: none;
+  color: white;
 }
 
 .line {
@@ -174,6 +175,6 @@ ul {
   width: 20%;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid $green;
+  border: 1px solid white;
   margin-bottom: 80px;
 }

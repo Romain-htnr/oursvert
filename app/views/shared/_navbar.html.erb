@@ -1,15 +1,21 @@
-<div class="navbar">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
   <%= link_to root_path do %>
-  <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1584376698/Ours%20vert/logo_p3r3sa.png" alt="logo" class="logo">
+  <img src="https://res.cloudinary.com/dgpkng6h9/image/upload/v1584376698/Ours%20vert/logo_p3r3sa.png" alt="logo" class=" logo navbar-brand">
   <% end %>
-  <div class="nav-links">
-    <%= link_to "NATURE", nature_path, class: "link" %>
-    <%= link_to "LE MEUBLE", lemeuble_path, class: "link" %>
-    <%= link_to "CULTURE & PATRIMOINE", cultureetpatrimoine_path, class: "link" %>
-    <%= link_to "RESTAURATION", restauration_path, class: "link" %>
+  <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+       <%= link_to "NATURE", nature_path, class: "nav-item link" %>
+       <%= link_to "LE MEUBLE", lemeuble_path, class: "nav-item link" %>
+       <%= link_to "CULTURE & PATRIMOINE", cultureetpatrimoine_path, class: "nav-item link" %>
+       <%= link_to "RESTAURATION", restauration_path, class: "nav-item link" %>
+    </div>
   </div>
-  <div class="flags">
+</nav>
+
+<!-- <div class="flags">
     <img src="https://r-cf.bstatic.com/static/img/flags/24/fr/c3dafe717a0b4b97e6ddd0d791e8a018d8f96310.png" alt="frenchflag" class="fr-drapeau">
     <img src="https://r-cf.bstatic.com/static/img/flags/24/de/8ac6ba8a71dc9fd2122f37462d4f26b1ee9428de.png" alt="germanflag" class="all-drapeau">
-  </div>
-</div>
+</div> -->

@@ -3,32 +3,5 @@
 @import "config/bootstrap_variables";
 @import "bootstrap/scss/bootstrap";
 @import "font-awesome";
-@import "components/navbar";
-@import "components/buttons";
-@import "pages/home";
-@import "pages/lemeuble";
-@import "pages/nature";
-@import "pages/restauration";
-@import "pages/cultureetpatrimoine";
-
-body {
-  margin: 0;
-  margin-top: 0;
-  background-color: $beige;
-}
-
-h1 {
-  color: $green;
-}
-
-p {
-  color: $light-green;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
+@import "components/index";
+@import "pages/index";
