@@ -1,12 +1,12 @@
 .navbar {
   display: flex;
-  background-color: $beige;
-  color: $green;
+  background-color: $light-green;
   justify-content: space-between;
   position: fixed;
   width: 100%;
   height: 12vh;
   z-index: 2;
+  padding: 0;
 }
 
 .logo {
@@ -20,7 +20,7 @@
 
 .logo:hover {
   text-decoration: none;
-  color: $light-green;
+  color: white;
 }
 
 .nav-links {
@@ -42,11 +42,19 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-weight: bold;
-  color: #134418;
+  color: white;
   padding-right: 34px;
 }
 
 .link:hover {
   text-decoration: none;
-  color: #81B55F;
+  color: #80b28b;
+}
+
+.flags {
+  padding-top: 30px;
+  padding-left: 12px;
+  background-color: $very-light-green;
+  height: 12vh;
+  width: 6%;
 }

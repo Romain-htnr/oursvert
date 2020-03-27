@@ -36,8 +36,10 @@
  }
 
  .activites {
-  margin-left: 60px;
-  padding: 2rem;
+  position: relative;
+  left: 10%;
+  width: 90%;
+  // padding: 2rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 1rem;
@@ -102,3 +104,12 @@
   text-align: center;
   margin-bottom: 80px;
 }
+
+// .2ndcont {
+//   // z-index: -1000;
+//   position: sticky;
+//   width: 20%;
+//   height: 100vh;
+//   right: 0;
+//   color: grey;
+// }
