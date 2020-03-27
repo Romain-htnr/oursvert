@@ -6,21 +6,29 @@
   font-size: 20px;
   padding-top: 34px;
   margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .nature-cards {
   width: 80%;
   display: grid;
+  // grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   grid-template-columns: 1fr 1fr ;
   grid-column-gap: 40px;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 80px;
+  // padding-top: 80px;
 }
 
-.nature-card {
-  padding-bottom: 60px;
+@media only screen and (max-width: 600px) {
+  .nature-cards {
+    grid-template-columns: 1fr;
+  }
 }
+
+// .nature-card {
+//   padding-bottom: 60px;
+// }
 
 .nature-card img {
   width: 100%;
@@ -49,3 +57,5 @@
   padding-bottom: 20px;
   word-spacing: 4px;
 }
+
+
