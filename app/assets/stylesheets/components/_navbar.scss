@@ -2,7 +2,7 @@
   background-color: $light-green !important;
   position: fixed;
   width: 100%;
-  z-index: 2;
+  z-index: 1001;
   // justify-content: space-between;
   // height: 12vh;
   // padding: 0;
@@ -18,12 +18,12 @@
 }
 
 .active {
-  color: red;
+  color: $very-light-green;
   background-color: $light-green !important;
 }
 
 .active:hover {
-  color: red;
+  color: $very-light-green;
   // background-color: $light-green !important;
 }
 

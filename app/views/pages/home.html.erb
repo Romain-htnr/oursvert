@@ -68,7 +68,9 @@
 mapboxgl.accessToken = 'pk.eyJ1Ijoicm9tYWluLWh0bnIiLCJhIjoiY2s3dzV6czl0MDBzbjNlcXY0NXZodTM2diJ9.nyFKf_Gvli6U4lvSGUpaNw';
 var map = new mapboxgl.Map({
   container: 'map', // container id
-  style: 'mapbox://styles/mapbox/streets-v11', // stylesheet location
+  attributionControl: false,
+  // zoomControl: true,
+  style: 'mapbox://styles/romain-htnr/ck8elp2pc0vo91imr4l9g3wbq', // stylesheet location
   center: [7.491797924041748, 48.98330307006836], // starting position [lng, lat]
   zoom: 13 // starting zoom
 });
@@ -98,10 +100,12 @@ map.on('load', function() {
         'type': 'symbol',
         'source': 'point',
         'layout': {
+          // 'icon-name': `L'ours vert`,
           'icon-image': 'pointer',
           'icon-size': 0.08
         }
       });
+      map.addControl(new mapboxgl.NavigationControl());
     }
   );
 });
