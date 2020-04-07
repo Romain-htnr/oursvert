@@ -1,5 +1,4 @@
 .histoire-mil {
-  // text-align: center;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -17,7 +16,7 @@
 
 .mil-h1 {
   text-align: center;
-  // margin-bottom: 60px;
+  margin-top: 80px;
 }
 
 .mil-p {
@@ -47,6 +46,10 @@
   text-align: center
 }
 
+.ruines h1 {
+  margin-bottom: 40px;
+}
+
 .ruines-cards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -56,15 +59,6 @@
 .ruines-cards img {
   width: 100%;
   height: 40vh;
-}
-
-
-.artisanat {
-  margin-top: 100px;
-}
-
-.artisanat h1 {
-  text-align: center;
 }
 
 .text-img {
@@ -107,7 +101,96 @@
   transform: translate(-50%, -50%);
 }
 
+.text-ruines .txt-ruine {
+  opacity: 0
+}
+
+.cote-mos {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.text-ruines:hover .txt-ruine {
+  opacity: 1;
+  transition: opacity 1s;
+}
+
 .cot-als {
   margin-top: 40px;
   margin-bottom: 40px;
+}
+
+.art-h1 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.crist-p {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.grid-crist {
+  width: 90%;
+  height: 80vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-column-gap: 14px;
+}
+
+.lft-crist {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bottoms {
+  display: flex;
+  justify-content: space-between;
+  height: 40vh;
+}
+
+.bottom-right {
+  width: 97%;
+  height: 40vh;
+}
+
+.top-right {
+  width: 100%;
+  height: 40vh;
+  margin-bottom: 14px
+}
+
+.aussi {
+  width: 90%;
+  margin-top: 120px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.grid-aussi {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 16px;
+}
+
+.lft-aussi img {
+  width: 100%;
+  height: 39vh;
+}
+
+.rgt-aussi {
+  width: 100%;
+  height: 80vh;
+}
+
+.mgn-aussi {
+  margin-bottom: 16px;
 }
