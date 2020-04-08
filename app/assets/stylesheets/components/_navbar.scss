@@ -1,11 +1,10 @@
 .navbar {
   background-color: $light-green !important;
+  font-family: 'Rubik', sans-serif;
+  font-size: 18px;
   position: fixed;
   width: 100%;
   z-index: 1001;
-  // justify-content: space-between;
-  // height: 12vh;
-  // padding: 0;
 }
 
 .navbar-collapse {
@@ -18,12 +17,12 @@
 }
 
 .active {
-  color: $very-light-green;
+  color: white !important;
   background-color: $light-green !important;
 }
 
 .active:hover {
-  color: $very-light-green;
+  color: white !important;
   // background-color: $light-green !important;
 }
 
@@ -37,43 +36,10 @@
   font-size: 30px;
 }
 
-// .logo:hover {
-//   text-decoration: none;
-//   color: white;
-// }
+.link {
+  color: $very-light-green;
+}
 
-// .nav-links {
-//   display: flex;
-//   padding-top: 8px;
-// }
-
-// .fr-drapeau {
-//   width: 18px;
-//   margin-right: 2%;
-// }
-
-// .all-drapeau {
-//   width: 18px;
-// }
-
-// .link {
-//   text-decoration: none;
-//   font-family: 'Open Sans', sans-serif;
-//   font-size: 14px;
-//   font-weight: bold;
-//   color: white;
-//   padding-right: 34px;
-// }
-
-// .link:hover {
-//   text-decoration: none;
-//   color: #80b28b;
-// }
-
-// .flags {
-//   padding-top: 2%;
-//   padding-left: 12px;
-//   background-color: $very-light-green;
-//   height: 12vh;
-//   width: 6%;
-// }
+.nav-item:hover {
+  color: $very-light-green ;
+}
