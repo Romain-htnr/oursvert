@@ -149,8 +149,9 @@
 }
 
 .bottoms {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  // justify-content: space-between;
   height: 40vh;
 }
 
