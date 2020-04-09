@@ -3,23 +3,28 @@
   height: 220px;
   background: $green;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  display: flex;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
   justify-content: space-between;
-  // align-items: center;
+  align-items: center;
   width: 80%;
+  height: 30vh;
+  text-align: center;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 140px;
+  margin-top: 80px;
+  border-radius: 6px;
 }
 
 .card-product img {
   height: 100%;
-  width: 220px;
+  // width: 220px;
+  width: 100%;
   object-fit: cover;
 }
 
 .card-product h2 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
   margin: 0;
 }
@@ -30,8 +35,65 @@
   opacity: .7;
   margin-bottom: 0;
   margin-top: 8px;
+  margin-right: auto;
+  // width: 250px;
+  margin-left: auto
+}
+
+.drive{
+  // width: 130px;
+  position: relative;
+  right: 34px;
+}
+
+.card-product-infos {
+  // width: 50%;
 }
 
 .card-product .card-product-infos {
   padding: 16px;
+}
+
+.toporesto {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 22px;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.siteresto {
+  margin-top: 22px;
+  font-size: 14px;
+  background-color: white;
+  color: $very-light-green;
+  border: 1px solid white;
+  border-radius: 3px;
+  position: relative;
+  padding: 3px;
+  top: 10px;
+}
+
+.siteresto:hover {
+  background-color: white;
+  color: $green;
+}
+
+.typecuisine {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  margin-top: 80px;
+  text-align: left;
+}
+
+.autres-resto {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
 }
