@@ -7,19 +7,17 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav">
-       <%= link_to "NATURE", nature_path, class: "nav-item link" %>
        <%= link_to "LE MEUBLE", lemeuble_path, class: "nav-item link" %>
        <%= link_to "CULTURE & PATRIMOINE", cultureetpatrimoine_path, class: "nav-item link" %>
+       <%= link_to "NATURE", nature_path, class: "nav-item link" %>
        <%= link_to "RESTAURATION", restauration_path, class: "nav-item link" %>
     </div>
   </div>
 </nav>
-
 <!-- <div class="flags">
     <img src="https://r-cf.bstatic.com/static/img/flags/24/fr/c3dafe717a0b4b97e6ddd0d791e8a018d8f96310.png" alt="frenchflag" class="fr-drapeau">
     <img src="https://r-cf.bstatic.com/static/img/flags/24/de/8ac6ba8a71dc9fd2122f37462d4f26b1ee9428de.png" alt="germanflag" class="all-drapeau">
 </div> -->
-
 <script>
 $(function() {
   $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('active');
