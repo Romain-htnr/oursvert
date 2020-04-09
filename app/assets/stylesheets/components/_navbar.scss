@@ -12,6 +12,11 @@
   margin: auto;
 }
 
+body > nav > a {
+  width: 30%;
+}
+
+
 .nav-item {
   margin-right: 24px;
 }
@@ -23,7 +28,6 @@
 
 .active:hover {
   color: white !important;
-  // background-color: $light-green !important;
 }
 
 .logo {
