@@ -111,7 +111,7 @@
 }
 
 .meuble-details{
-  margin-top: 100px;
+  margin-top: 140px;
 }
 
 .title {
@@ -122,8 +122,9 @@
 
 .icons {
   width: 50%;
-  margin: auto;
-  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
   display: flex;
   justify-content: space-between;
 }
@@ -229,6 +230,21 @@ ul {
   position: relative;
   top: 40%;
   margin-right: 12px;
+}
+
+.OV-info h2 {
+  margin-bottom: 40px;
+}
+
+.tarif-div h2 {
+  margin-bottom: 40px;
+}
+
+.test-icon {
+  margin-top: 40px;
+  width: 200px;
+  height: 200px;
+  background-color: white;
 }
 
 @media only screen and (max-width: 600px) {
