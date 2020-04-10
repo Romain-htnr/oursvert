@@ -236,6 +236,17 @@ ul {
   margin-bottom: 40px;
 }
 
+.OV-info a {
+  padding: 4px;
+  border-radius: 4px;
+  border: 2px solid white;
+}
+
+.OV-info a:hover {
+  color: $green;
+  background-color: white;
+}
+
 .tarif-div h2 {
   margin-bottom: 40px;
 }
