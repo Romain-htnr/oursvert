@@ -18,36 +18,24 @@
 
 .card-product img {
   height: 100%;
-  // width: 220px;
   width: 100%;
   object-fit: cover;
 }
 
 .card-product h2 {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
   margin: 0;
 }
 
 .card-product p {
-  font-size: 12px;
+  font-size: 20px;
   line-height: 1.4;
   opacity: .7;
   margin-bottom: 0;
   margin-top: 8px;
   margin-right: auto;
-  // width: 250px;
   margin-left: auto
-}
-
-.drive{
-  // width: 130px;
-  position: relative;
-  right: 34px;
-}
-
-.card-product-infos {
-  // width: 50%;
 }
 
 .card-product .card-product-infos {
