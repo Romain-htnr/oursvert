@@ -27,7 +27,7 @@
 }
 
 .text-card {
-  height: 400px;
+  height: 450px;
   vertical-align: middle;
 }
 
@@ -49,6 +49,10 @@
 
 .nature-card {
   box-shadow: 0 0 15px rgba(0,0,0,0.8);
+}
+
+.text-card .btn {
+  margin-top: -2px;
 }
 
 @media only screen and (max-width: 600px) {

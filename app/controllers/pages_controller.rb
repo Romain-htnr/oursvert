@@ -13,4 +13,7 @@ class PagesController < ApplicationController
 
   def restauration
   end
+
+  def tarif
+  end
 end
