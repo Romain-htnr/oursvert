@@ -11,4 +11,3 @@ require("jquery")
 
 import $ from 'jquery';
 
-$( document ).ready(function() { $("#query").focus();
