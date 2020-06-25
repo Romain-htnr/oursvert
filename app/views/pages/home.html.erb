@@ -59,25 +59,3 @@
     </div>
   </li>
 </div>
-<div class="map-cont">
-<h1 class="where">Où nous trouver ?</h1>
-<div id="map"></div>
-</div>
-<script>
-
-function initMap() {
-  var myLatLng = {lat: 48.98330307006836, lng: 7.491797924041748};
-
-  var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 12,
-    center: myLatLng
-  });
-
-  var marker = new google.maps.Marker({
-    position: myLatLng,
-    map: map,
-    title: 'Hello World!'
-  });
-}
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI19bytqN7JICIhKpCy9uLQn5KxgjhkcY&callback=initMap"async defer></script>

@@ -12,12 +12,10 @@
 .meuble-infos {
   padding-top: 220px;
   text-align: center;
-  width: 50%;
-  margin: auto;
-}
-
-.meuble-details{
-  margin-top: 140px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 180px;
 }
 
 .title {
@@ -28,6 +26,7 @@
 
 .icons {
   width: 50%;
+  margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -35,8 +34,8 @@
 }
 
 .icons img {
-  width: 28px;
-  height: 28px;
+  width: 48px;
+  height: 48px;
 }
 
 .icons-details {
@@ -51,17 +50,23 @@
   text-align: center;
 }
 
-.both p {
-  padding-top: 38px;
-}
-
 .text-meuble {
   margin-top: 100px;
-  width: 80%;
-  margin-left: auto;
+  width: 64%;
   margin-right: auto;
+  margin-left: auto;
   margin-bottom: 80px;
   text-align: center;
+}
+
+.text-meuble h2 {
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+
+.text-meuble p {
+  font-size: 20px;
+  margin-bottom: 30px;
 }
 
 ul {
@@ -74,15 +79,25 @@ ul {
   width: 20%;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid white;
-  margin-bottom: 80px;
+  border: 0.5px solid white;
+  margin-bottom: 60px;
 }
 
-.tarif-div {
+.map-grid {
+  margin-left:40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 1rem;
+}
+
+.contact {
   width: 80%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 160px;
   text-align: center;
+}
+
+.contact p{
+  font-size: 18px;
 }
 
 .OV-info {
@@ -158,10 +173,6 @@ ul {
   background-color: white;
 }
 
-.tarif-div h2 {
-  margin-bottom: 40px;
-}
-
 .test-icon {
   margin-top: 40px;
   width: 200px;
@@ -186,10 +197,29 @@ ul {
   width: 10%;
 }
 
+#map {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 80px;
+  width: 90%;
+  height: 80vh;
+  border: 2px solid $green;
+}
+
+.where {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.mapbox-improve-map {
+    display: none;
+}
+
+a.mapboxgl-ctrl-logo {
+  display: none !important;
+}
+
 @media only screen and (max-width: 600px) {
-  // .mySlides {
-  //   height: 30vh !important;
-  // }
   .carousel img{
     height: 30vh !important;
   }
