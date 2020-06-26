@@ -116,25 +116,27 @@ ul {
   margin-right: auto;
 }
 
+.travelers {
+  display: flex;
+}
+
 .rev-card {
   width: 100%;
-  height: 18vh;
-  border-radius: 3px;
+  min-height: 16vh;
+  // height: 24vh;
   display: flex;
   margin-bottom: 28px;
   background-color: $green;
-  box-shadow: 0 0 15px rgba(0,0,0,0.8);
   justify-content: space-between;
-  text-align: center;
 }
 
 .rev-card img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   margin-left: 18px;
   position: relative;
-  top: 25%;
+  // top: 25%;
 }
 
 .rev-info {
@@ -143,18 +145,43 @@ ul {
   width: 70%;
 }
 
-.rev-info h2 {
-  text-align: center;
-  font-size: 18px;
-}
-
-.rev-info p {
-  font-size: 18px;
-}
-
-.duree {
+.rev-card h2 {
+  text-align: left;
+  font-size: 14px;
+  width: 120px;
   position: relative;
-  top: 40%;
+  top: 4%;
+  left: 8%;
+  text-align: left;
+}
+
+.rev-card p {
+  font-size: 14px;
+  margin-left: 24px;
+  width: 70%;
+  text-align: center;
+}
+
+.comment {
+  margin-top: 4%
+}
+
+.fineline{
+  content: "";
+  display: block;
+  height: 1px;
+  position: relative;
+  bottom: 1.2rem;
+  background: rgb(192,192,192);
+  padding: 0px 25%;
+  // margin-left: -50%;
+  z-index: -1;
+  opacity: 0.5
+}
+
+.duree p{
+  position: relative;
+  top: 2%;
   margin-right: 12px;
 }
 
