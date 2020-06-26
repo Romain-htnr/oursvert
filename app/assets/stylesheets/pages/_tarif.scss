@@ -1,7 +1,8 @@
 .tarifs-container {
-  width: 80%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
+  // text-align: center;
 }
 
 .tarif-info {
@@ -10,14 +11,35 @@
   margin-bottom: 20px;
 }
 
+.tarif-div{
+  text-align: center;
+}
 .t-infos {
   text-align: center;
   margin-top: 60px;
   margin-bottom: 60px;
 }
 
+.saison-card {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+}
 
-.tarif-info > :first-child {
-  font-size: 24px;
-  font-weight: bold;
+.saison-card img {
+  height: 80vh;
+  width: 40%;
+}
+
+.mi-saison_text {
+  text-align: center;
+}
+
+.pair-infos{
+  margin-top: 140px;
+  margin-bottom: 120px;
+  line-height: 0.8
 }
