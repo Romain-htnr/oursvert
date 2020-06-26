@@ -22,13 +22,8 @@
 
 .nature-card img {
   width: 100%;
-  height: 350px;
+  height: 350px !important;
   object-fit: cover;
-}
-
-.text-card {
-  height: 450px;
-  vertical-align: middle;
 }
 
 .nature-card h2 {
@@ -45,6 +40,10 @@
   margin: auto;
   padding-bottom: 20px;
   word-spacing: 4px;
+}
+
+.v-centered{
+  margin-top: 20% !important;
 }
 
 .nature-card {
