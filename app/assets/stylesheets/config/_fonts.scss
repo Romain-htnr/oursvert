@@ -1,2 +1,39 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Rubik:wght@300;400;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap")
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+@font-face {
+  font-family:'Rabiohead';
+  src:url(asset-path('fonts/rabiohead.ttf')) format('ttf'),
+}
+
+$my-font: "Rabiohead";
+
+@font-face {
+  font-family:'littlelord';
+  src:url(asset-path('fonts/littlelord.woff')) format('woff'),
+}
+
+$my-font: "littlelord";
+
+// allessa-personal-use.regular
+
+@font-face {
+  font-family:'Allessa';
+  src:url(asset-path('fonts/Allessa.woff')) format('woff'),
+}
+
+$my-font: "Allessa";
+
+@font-face {
+  font-family:'allura';
+  src:url(asset-path('fonts/allura.woff')) format('woff'),
+}
+
+$my-font: "allura";
+
+@font-face {
+  font-family:'Anaphora';
+  src:url(asset-path('fonts/Anaphora.woff')) format('woff'),
+}
+
+$my-font: "Anaphora";

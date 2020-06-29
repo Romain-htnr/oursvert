@@ -1,11 +1,13 @@
-.navbar {
-  background-color: $light-green !important;
+.homemade-nav {
   font-family: 'Rubik', sans-serif;
   font-size: 18px;
   position: fixed;
   width: 100%;
+  // color: red !important;
   z-index: 1001;
   text-align: right;
+  background-color: transparent !important;
+  transition: 0.5s background-color ease;
 }
 
 .navbar-collapse {
@@ -17,34 +19,44 @@ body > nav > a {
   width: 30%;
 }
 
+.navbar-green {
+  background-color: white !important;
+  color: red !important
+}
+
+.navbar-green a {
+  color: $green
+}
 
 .nav-item {
   margin-left: 24px;
 }
 
-.active {
-  color: white !important;
-  background-color: $light-green !important;
-}
+// .active {
+//   color: white !important;
+//   // background-color: $light-green !important;
+// }
 
-.active:hover {
-  color: white !important;
-}
+// .active:hover {
+//   color: white !important;
+// }
 
 .logo {
-  margin-left: 8px;
+  // margin-left: 8px;
   margin-right: 300px;
-  width: 50px;
+  // position: absolute;
+  // left: 0;
+  width: 74px;
   text-decoration: none;
   font-family: 'Bebas Neue';
   color: #134418;
   font-size: 30px;
 }
 
-.link {
-  color: $very-light-green;
-}
+// .link {
+//   color: $very-light-green;
+// }
 
 .nav-item:hover {
-  color: $very-light-green ;
+  color: $green ;
 }
