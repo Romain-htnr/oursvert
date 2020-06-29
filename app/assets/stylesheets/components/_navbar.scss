@@ -3,16 +3,21 @@
   font-size: 18px;
   position: fixed;
   width: 100%;
-  // color: red !important;
   z-index: 1001;
   text-align: right;
   background-color: transparent !important;
   transition: 0.5s background-color ease;
 }
 
+
 .navbar-collapse {
   display: block;
-  margin: auto;
+  // margin: auto;
+}
+
+.navbar-nav {
+  position: absolute;
+  right: 28px
 }
 
 body > nav > a {
@@ -29,7 +34,7 @@ body > nav > a {
 }
 
 .nav-item {
-  margin-left: 24px;
+  margin-left: 28px;
 }
 
 // .active {
@@ -42,21 +47,15 @@ body > nav > a {
 // }
 
 .logo {
-  // margin-left: 8px;
   margin-right: 300px;
   // position: absolute;
-  // left: 0;
+  // left: 8px;
   width: 74px;
-  text-decoration: none;
-  font-family: 'Bebas Neue';
-  color: #134418;
-  font-size: 30px;
 }
 
-// .link {
-//   color: $very-light-green;
-// }
 
 .nav-item:hover {
-  color: $green ;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  color: $very-light-green;
 }
