@@ -7,6 +7,7 @@
 .homepic img {
   height: 100vh;
   width: 100%;
+  opacity: 0.8;
   object-fit: cover;
 }
 
@@ -24,11 +25,15 @@
   font-weight: bold;
   padding-left: 1%;
   padding-right: 1%;
-  color: green;
-  background-color: white;
+  color: white;
+  // background-color: white;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.red {
+  background-color: #e67e3c;
 }
 
 .homeinfo {

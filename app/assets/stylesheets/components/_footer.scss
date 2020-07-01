@@ -1,6 +1,6 @@
 .footer {
   height: 200px;
-  background-color: white;
+  background-color: $very-light-green;
 }
 
 .footer-flex {
@@ -27,16 +27,16 @@
 }
 
 .footer a {
-  color:green;
+  color:white;
   font-size: 16px;
   text-decoration: underline;
 }
 
 .footer a:hover {
-  color: green;
+  color: white;
 }
 
-.footer p {color:green}
+.footer p {color:white}
 
 .mentions {
   margin-left: 36px;
