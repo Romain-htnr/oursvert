@@ -36,4 +36,11 @@ $my-font: "allura";
   src:url(asset-path('fonts/Anaphora.woff')) format('woff'),
 }
 
-$my-font: "Anaphora";
+$my-font: "Raleway-Regular";
+
+@font-face {
+  font-family:'Raleway-Regular';
+  src:url(asset-path('fonts/Raleway-Regular.woff')) format('woff'),
+}
+
+$my-font: "Raleway-Regular";
