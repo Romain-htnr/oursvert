@@ -16,7 +16,7 @@
 
 .footer-links {
   margin-top: 44px;
-  width: 44%;
+  width: 54%;
   display: flex;
   justify-content: space-between;
   margin-right: 24px;
@@ -47,4 +47,26 @@
 .plus {
   font-size: 12px !important;
   margin-top: 4px;
+}
+
+@media only screen and (max-width: 800px) {
+  .footer-flex {
+    display: block;
+  }
+
+  .footer-infos {
+    padding-top: 40px;
+  }
+
+  .footer-links {
+    margin-top: 10px;
+    width: 70%;
+    margin-left: 36px;
+  }
+
+  .mentions {
+    margin-bottom: 0px !important;
+    margin-left: 36px;
+    margin-top: 4px;
+  }
 }

@@ -12,7 +12,6 @@
 
 .navbar-collapse {
   display: block;
-  // margin: auto;
 }
 
 .navbar-nav {
@@ -38,7 +37,7 @@ body > nav > a {
 }
 
 // .active {
-//   color: white !important;
+//   color: $very-light-green !important;
 //   // background-color: $light-green !important;
 // }
 
@@ -48,8 +47,6 @@ body > nav > a {
 
 .logo {
   margin-right: 300px;
-  // position: absolute;
-  // left: 8px;
   width: 74px;
 }
 
@@ -59,3 +56,4 @@ body > nav > a {
   text-decoration-style: solid;
   color: $very-light-green;
 }
+
