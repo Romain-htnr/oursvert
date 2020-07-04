@@ -9,7 +9,6 @@
   transition: 0.5s background-color ease;
 }
 
-
 .navbar-collapse {
   display: block;
 }
@@ -25,7 +24,6 @@ body > nav > a {
 
 .navbar-green {
   background-color: white !important;
-  color: red !important
 }
 
 .navbar-green a {
@@ -55,4 +53,20 @@ body > nav > a {
   text-decoration: underline;
   text-decoration-style: solid;
   color: $very-light-green;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar-green {
+    background-color: white !important;
+  }
+
+  .navbar-green a {
+    color: green;
+    background-color: white;
+  }
+
+  .navbar-nav {
+    position: static;
+    right: 28px
+  }
 }
