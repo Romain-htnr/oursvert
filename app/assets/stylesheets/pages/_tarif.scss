@@ -64,3 +64,13 @@
 .pair-infos p {
   font-size: 26px;
 }
+
+@media only screen and (max-width: 800px) {
+  .saison-card img {
+    height: 54vh;
+  }
+
+  .pair-infos{
+    top: 28%;
+  }
+}
