@@ -1,6 +1,8 @@
 .footer {
   height: 200px;
   background-color: $very-light-green;
+  position: relative;
+  // opacity: 1;
 }
 
 .footer-flex {
@@ -15,11 +17,12 @@
 }
 
 .footer-links {
-  margin-top: 44px;
-  width: 54%;
+  // margin-top: 44px;
+  // width: 84%;
   display: flex;
+  font-size: 14px !important;
   justify-content: space-between;
-  margin-right: 24px;
+  // margin-right: 24px;
 }
 
 .footer p {
@@ -39,14 +42,31 @@
 .footer p {color:white}
 
 .mentions {
-  margin-left: 36px;
-  margin-top: 18px;
-  opacity: 0.6;
+  position: absolute;
+  left: 36px;
+  bottom: 4px;
+  // margin-left: 36px;
+  // margin-top: 18px;
+  // opacity: 0.6;
 }
 
 .plus {
   font-size: 12px !important;
   margin-top: 4px;
+}
+
+.right-footer {
+  position: absolute;
+  top: 36px;
+  right: 36px;
+  text-align: right;
+  // margin-top: 84px;
+  width: 55%
+}
+
+.plusinfos{
+  text-align: left;
+  // font-size: 18px !important;
 }
 
 @media only screen and (max-width: 800px) {
