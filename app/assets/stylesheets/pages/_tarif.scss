@@ -52,7 +52,7 @@
 
 .pair-infos{
   position: relative;
-  top: 45%;
+  top: 35%;
   margin-bottom: 60px;
   line-height: 0.8;
 }
@@ -63,6 +63,14 @@
 
 .pair-infos p {
   font-size: 26px;
+}
+
+.tarif-info > h2 {
+  margin-bottom: 24px;
+}
+
+.tarif-div > h2 {
+  margin-bottom: 24px;
 }
 
 @media only screen and (max-width: 800px) {
