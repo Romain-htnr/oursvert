@@ -42,7 +42,7 @@
 }
 
 .saison-card img {
-  height: 64vh;
+  height: 54vh;
   width: 40%;
 }
 
@@ -53,7 +53,6 @@
 .pair-infos{
   position: relative;
   top: 35%;
-  margin-bottom: 60px;
   line-height: 0.8;
 }
 
@@ -62,15 +61,15 @@
 }
 
 .pair-infos p {
-  font-size: 26px;
+  font-size: 24px;
 }
 
 .tarif-info > h2 {
-  margin-bottom: 24px;
+  margin-bottom: 22px;
 }
 
 .tarif-div > h2 {
-  margin-bottom: 24px;
+  margin-bottom: 22px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -80,5 +79,10 @@
 
   .pair-infos{
     top: 28%;
+  }
+
+  .saison-card img {
+    height: 34vh;
+    width: 40%;
   }
 }
