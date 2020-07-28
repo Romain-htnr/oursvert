@@ -221,28 +221,41 @@
 }
 
 .aussi-container {
-  width: 80%;
-  margin: auto;
+  // widtsh: 80%;
+  // margin: auto;
   margin-bottom: 120px;
 }
 
 .aussi-card {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+  // width: 100%;
   margin-bottom: 40px;
 }
 
 .aussi-card img {
-  width: 500px;
-  height: 80vh;
-  object-fit: contain;
-  border-radius: 2px;
+  // display: block;
+  // margin-right : auto;
+  // margin-left: auto;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bel {
+  width: 40%;
+}
+
+.petrazoler {
+  width: 24%;
+}
+
+.herisson {
+  width: 28%;
 }
 
 .aussi-card p {
   text-align: center;
-  margin-top: 25%;
+  margin-bottom: 80px;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
@@ -293,6 +306,18 @@
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .bel {
+    width: 50%;
+  }
+
+  .petrazoler {
+    width: 34%;
+  }
+
+  .herisson {
+    width: 38%;
   }
 }
 
