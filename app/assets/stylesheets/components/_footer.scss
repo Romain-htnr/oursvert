@@ -94,18 +94,16 @@
     width: 100%;
   }
 
+  .footer-links > a {
+    font-size: 12px !important;
+  }
+
   .plusinfos {
     text-align: left;
     margin-left: 36px;
   }
 
-  // .mentions {
-  //   position: absolute !important;
-  //   right: 24px !important;
-  // }
-
   .mentions {
-    // left: 300px;
-    bottom: 74px;
+    bottom: 64px;
   }
 }
