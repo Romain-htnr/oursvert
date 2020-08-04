@@ -1,5 +1,4 @@
 .footer {
-  // height: 200px;
   background-color: $very-light-green;
   position: relative;
 }
@@ -76,12 +75,6 @@
     margin-left: 36px;
   }
 
-  // .mentions {
-  //   margin-bottom: 0px !important;
-  //   margin-left: 36px;
-  //   margin-top: 4px;
-  // }
-
   .right-footer {
     position: relative;
     width: 90%;
@@ -104,6 +97,7 @@
   }
 
   .mentions {
-    bottom: 64px;
+    bottom: 80px;
+    text-decoration: none !important;
   }
 }
