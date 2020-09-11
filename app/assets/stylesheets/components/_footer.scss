@@ -1,6 +1,7 @@
 .footer {
   background-color: $very-light-green;
   position: relative;
+  height: 24vh;
 }
 
 .footer-flex {
@@ -49,7 +50,8 @@
 
 .right-footer {
   position: relative;
-  top: 36px;
+  margin-top: 38px;
+  // top: 36px;
   right: 36px;
   text-align: right;
   width: 55%
@@ -99,5 +101,9 @@
   .mentions {
     bottom: 80px;
     text-decoration: none !important;
+  }
+
+  .footer {
+    height: inherit;
   }
 }
