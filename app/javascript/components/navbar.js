@@ -14,7 +14,5 @@ const initUpdateNavbarOnScroll = () => {
   // if (navbar.classList.contains('navbar-green')) = true {
   //   navitem.classList.add()
   // }
-
-
 }
 export { initUpdateNavbarOnScroll };
