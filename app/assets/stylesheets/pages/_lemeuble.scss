@@ -212,7 +212,6 @@ ul {
 .languages {
   text-align: center;
 }
-
 .flags {
   margin-left: auto;
   margin-right: auto;
@@ -221,12 +220,10 @@ ul {
   display: flex;
   justify-content: space-between;
 }
-
 .flags img {
   width: 28px;
   height: 24px;
 }
-
 #map {
   margin-right: auto;
   margin-left: auto;
@@ -235,20 +232,16 @@ ul {
   height: 80vh;
   border: 2px solid $green;
 }
-
 .where {
   text-align: center;
   margin-bottom: 80px;
 }
-
 .mapbox-improve-map {
     display: none;
 }
-
 a.mapboxgl-ctrl-logo {
   display: none !important;
 }
-
 .carousel-control-next {
   width: 40px !important;
   height: 40px !important;
@@ -259,11 +252,9 @@ a.mapboxgl-ctrl-logo {
     margin-top: 0px;
     margin-bottom: 80px;
   }
-
   .carousel {
     width: 80%;
   }
-
   .icons {
     width: 80%
   }
@@ -273,25 +264,17 @@ a.mapboxgl-ctrl-logo {
   .carousel img{
     height: 30vh !important;
   }
-
   .prev, .next {
     font-size: 26px !important;
     top: 40% !important;
   }
-
   .meuble-details {
     margin-top: 40px !important;
   }
-
   .flags {
     width: 46%;
   }
-
   .rev-card > p {
     margin-left: 0;
-  }
-
-  .duree > p {
-    // margin-left: 6px;
   }
 }
